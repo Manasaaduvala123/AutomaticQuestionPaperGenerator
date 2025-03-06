@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['user_id'])) {
-    header('location:login.php');
+    header('location:faculty_login.php');
     exit;
 }
 $user_email = $_SESSION['user_email'];
